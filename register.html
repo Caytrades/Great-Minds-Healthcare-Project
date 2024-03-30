@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Register</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="container">
+        <div class="logo">
+            <img src="./assets/GMHC.png" alt="Logo">
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Our Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </div>
+    <div class="search-bar">
+        <input type="text" placeholder="Search....">
+    </div>
+    
+</nav>
+
+<header class="First-time">
+<h1>First Time?</h1>
+</header>
+    
+    <div class="form-container">
+        <div class="registerform-group">
+            <h2>Create an account</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">What can we call you?</label>
+                    <input type="text" id="name" name="name" placeholder="Enter Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter Email"required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="*******" required>
+                </div>
+                <div class="form-group">
+                    <label for="password"> Confirm Password</label>
+                    <input type="password" id="password" name="password" placeholder="*******" required>
+                </div>
+               <div class="dob">
+                <label for="day">Day</label>
+                <select id="day" name="day">
+                    <option value="" min="1" max="31">Day</option>
+                </select>
+               </div>
+
+               <div class="dob">
+                <label for="month">Month</label>
+                <select id="month" name="month">
+                    <option value="" min="1" max="31">month</option>
+                </select>
+               </div>
+                
+               <div class="dob">
+                <label for="year">Year</label>
+                <select id="year" name="year">
+                    <option value="" min="1" max="31">year</option>
+                </select>
+               </div>
+                <div class="submit-button">
+                    <button type="submit">Submit</button>
+                    <h4>Already have an account? <a href="SignIn.html">Login</a></h4>
+                </div>
+            </form>
+        </div>
+        <div class="child-img">
+            <img src="./assets/child.jpg " alt="Image">
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-container"> 
+          <div>
+              <h2> The Great Mind Healthcare Center</h2>
+              <p>Always providing progressive, and affordable healthcare, accessible <br>both online and in person for everyone</p>
+              <p style="color: #7c7c7c;">&copy;2024 Great Minds Healthcare Center. All Rights Reserved</p>
+          </div>
+           <div class="quick-links">
+              <ul class="footer-list">
+                  <h2>Quick Links</h2>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="services.html">Our Services</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="about.html">About Us</a></li>
+              </ul>
+            </div>
+         <div class="footer-logo">
+              <img src="./assets/GMHC.png" alt="The Great Minds Health Care Logo">
+         </div>
+      </footer>
+</body>
+</html>
